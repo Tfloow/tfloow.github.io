@@ -50,9 +50,8 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "thomas.debelle@student.uclouvain.be"
+  email: "thomas.debelle@student.kuleuven.be"
   github: tfloow
-  twitter: TFL00W
 #  medium: yourname
 #  reddit: yourname
   linkedin: thomas.debelle
@@ -88,13 +87,13 @@ rss-description: This website is a virtual proof that I'm awesome
 
 # Select which social network share links to show in posts
 share-links-active:
-  twitter: true
-  facebook: true
+  twitter: false
+  facebook: false
   linkedin: true
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "thomas.debelle.be"
 
 # Add the website title to the title of every page
 title-on-all-pages: true
