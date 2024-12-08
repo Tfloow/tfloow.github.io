@@ -3,6 +3,7 @@ layout: page
 title: Consulting
 subtitle: Independent Consultant in IT
 tags: [personal projects]
+mathjax: true
 ---
 
 Since 2024, I collaborate with [Junior Consulting Louvain](https://jclouvain.com/) and provide my knowledge and service to various clients. I am working as an independent consultant and have satisfy multiple clients already.
