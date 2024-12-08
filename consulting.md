@@ -10,6 +10,14 @@ Since 2024, I collaborate with [Junior Consulting Louvain](https://jclouvain.com
 
 My main domain of expertise is online strategy, website building, SEO engineering and IT infrastructure. Those are some core skills to help your business grow in this digital world we are living in. And I am there to guide and help your business to grow, reach new clients and modernize your front- and back-end.
 
+## Acknowledgement and Awards
+
+### McKinsey Digital Workshop
+
+In September 2024, I had the opportunity to spend 3 days at McKinsey for a workshop about generative AI and to learn more about the work done at McKinsey Digital. It was an enriching experience where I could meet and talk with McKinsey consultant but also with other fellow students that all got selected.
+
+All students selected were chosen because they excelled at the first of the four part of McKinsey recruitment process. The first part consists of demonstrating your problem solving skills.
+
 ## Past Work
 
 ### August - December 2024 : BPH Solution 
