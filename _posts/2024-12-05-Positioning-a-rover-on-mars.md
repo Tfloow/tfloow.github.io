@@ -2,7 +2,7 @@
 layout: post
 title: Positioning and Communicating with a Rover on Mars
 subtitle: Houston do you receive me ?
-tags: [electronics,telecommunication,embedded system]
+tags: [academic projects,electronics,telecommunication,embedded system]
 comments: true
 mathjax: true
 author: Thomas Debelle
