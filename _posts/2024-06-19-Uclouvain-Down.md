@@ -11,7 +11,7 @@ mathjax: true
 author: Thomas Debelle
 ---
 
-During the exam period of January 2024, many students face various outages of UCLouvain's website leading to a flood of message "is it down for me ?","is my internet the issue ?" or "What the @!#& is going one !!!". That's for all of this reason and the personal challenge a monitoring website appealed me.
+During the exam period of January 2024, many students face various outages of UCLouvain's website leading to a flood of message "is it down for me ?","is my internet the issue ?" or "What the @!#& is going on !!!". That's for all of this reason and the personal challenge a monitoring website appealed me.
 
 ## Technology and Design Challenges
 
