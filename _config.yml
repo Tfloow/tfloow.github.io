@@ -26,6 +26,7 @@ navbar-links:
     - Industry: "tags/#industry projects"
     - Personal: "tags/#personal projects"
   Consulting: "consulting"
+  CTF: "tags/#CTF"
   Contact:
     - Linkedin: "https://www.linkedin.com/in/thomas-debelle/"
     - Mail: "mailto:thomas.debelle@student.kuleuven.be"
