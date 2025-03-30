@@ -3,6 +3,7 @@ layout: post
 title: Bitbanging like it's 1870
 subtitle: a CSCBE 2025 write up
 tags: [write-up, CTF, CSCBE2025]
+thumbnail-img: /assets/img/CTF/CSCBE2025/bitbanging/image.png
 comments: true
 mathjax: true
 author: Thomas Debelle
@@ -65,7 +66,7 @@ After seeing this, it made me think of a video made by [Usagi Electric](https://
 
 After a quick [google query](https://www.google.com/search?q=old+5+bits+printer+serial), I would get an article about **Teleprinter** where they mentioned the **Baudot Code** which was developed in 1874 by Émile Baudot. Everything is aligning !
 
-![By User:Huestones with derivative work by User:TedColes - Old version of File:International Telegraph Alphabet 2.jpg, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=82195717](image.png)
+![By User:Huestones with derivative work by User:TedColes - Old version of File:International Telegraph Alphabet 2.jpg, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=82195717](/assets/img/CTF/CSCBE2025/bitbanging/image.png)
 
 ## And the programming ?
 
