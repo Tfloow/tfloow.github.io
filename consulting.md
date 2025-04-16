@@ -20,6 +20,15 @@ All students selected were chosen because they excelled at the first of the four
 
 ## Past Work
 
+### March - June 2025 : BPH Solution 2
+
+After a successful experience with the clients, they decided to continue accelerating their online presence. They wanted to focus on their social media presence and expanding to new markets.
+
+Work done:
+* Revise Google Ads strategy
+* Build Instagram and Facebook page
+* Research and devise a social media strategy tailored for their needs and expectations
+
 ### August - December 2024 : BPH Solution 
 
 Work done: 
