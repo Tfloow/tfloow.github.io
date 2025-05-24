@@ -4,7 +4,7 @@ title: Ecodesign report
 subtitle: The impact of ICT tools on our modern education system
 tags: [ecology,academic projects]
 comments: true
-author: [Thomas Debelle, Bolin Li]
+author: Thomas Debelle, Bolin Li
 ---
 
 I'm excited to announce that a friend and I have just completed a new report for one of our university classes! This project gave us the opportunity to dive deep into the impact of ICT tools on modern teaching systems taking KU Leuven as a prime example.
