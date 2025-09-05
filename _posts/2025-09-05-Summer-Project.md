@@ -37,19 +37,19 @@ This is where pandoc really shines, when you start combining everything together
 
 But this is not enough, this is still too "tech-savy". I want everyone to see and appreciate the power of pandoc without downloading a single applications or opening any terminal. A webapp was the best bet.
 
-This is how https://beconvert.onrender.com/ was born. It is deployed on Render with the free plan which means the app can take a bit of time to start when it was shutdown. But the core principles are there. Behind, a simple docker runs which is a Debian based server that runs my flask app and install extra dependencies to have all the templates installed.
+This is how [beconvert.onrender.com/](https://beconvert.onrender.com/) was born. It is deployed on Render with the free plan which means the app can take a bit of time to start when it was shutdown. But the core principles are there. Behind, a simple docker runs which is a Debian based server that runs my flask app and install extra dependencies to have all the templates installed.
 
 ![The app](../assets/img/beconvert/image.png)
 
 With a sleek and modern design using Tailwind CSS made in ChatGPT. (Yes I suck at UI/UX, I am a backend dev and I have no sense of color theory)
 
-Anyone can convert their file using https://beconvert.onrender.com/conversion . It can be quite slow to compile as the ressources allocated are minimal. But if a significant demand appears I may work more on the premium plan to cover hosting costs.
+Anyone can convert their file using [beconvert.onrender.com/conversion](https://beconvert.onrender.com/conversion) . It can be quite slow to compile as the ressources allocated are minimal. But if a significant demand appears I may work more on the premium plan to cover hosting costs.
 
 ## Becoming RICHHH
 
 Yes, I mentioned it was a free app but I also said this idea was in my `get_rich_fast_quick.txt` list. Of course, the average user can use it for free but it also has paid premium features for companies.
 
-Basically, it can create clean invoice at https://beconvert.onrender.com/invoice . You can feed in a CSV looking like:
+Basically, it can create clean invoice at [beconvert.onrender.com/invoice](https://beconvert.onrender.com/invoice) . You can feed in a CSV looking like:
 
 | Part ID | Description                          | Quantity | Price per Piece | Price |
 | :------ | :----------------------------------- | :------: | :-------------: | ----: |
@@ -87,7 +87,7 @@ So, I said "One Last Dance"
 
 ## One Last Dance
 
-I pull my git that I left untouched for several months, renamed the website to UCLatence and removed all reference or usage of the logo. I bought a new URL https://www.uclatence.be . Now, no one can accuse me of unlawful copyright usage. I again re-vamped the interface to give a fresh new look using Tailwind CSS and deploy it again on render:
+I pull my git that I left untouched for several months, renamed the website to UCLatence and removed all reference or usage of the logo. I bought a new URL [uclatence.be](https://www.uclatence.be) . Now, no one can accuse me of unlawful copyright usage. I again re-vamped the interface to give a fresh new look using Tailwind CSS and deploy it again on render:
 
 ![The new UCLatence](../assets/img/beconvert/interface.png)
 
