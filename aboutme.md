@@ -15,14 +15,14 @@ $$F_{\rm {d}}\,=\,{\tfrac {1}{2}}\,\rho \,u^{2}\,c_{\rm {d}}\,A$$
 
 ## Experience
 
-###  INDEPENDENT IT CONSULTANT (Junior Entreprise) April 2024 - Now
+###  INDEPENDENT IT CONSULTANT (Junior Entreprise) - JCL - April 2024 - Now
 
 - Digital marketing consultant advising small local business.
 
 - Skills SEO, Odoo suite, Digital Marketing, Google
   Analytics, Wordpress, ERP
 
-###  VULNERABILITY ANALYST INTERN June 2025 - August 2025
+###  VULNERABILITY ANALYST INTERN - NXP Semiconductors - June 2025 - August 2025
 
 - Build a low-cost demonstration device of an ElectroMagnetic Fault
   Injection (EMFI) attack against a TI LAUNCHXL-CC2640R2 board.
@@ -34,14 +34,14 @@ $$F_{\rm {d}}\,=\,{\tfrac {1}{2}}\,\rho \,u^{2}\,c_{\rm {d}}\,A$$
 - Skills: Vulnerability analyst, Python, Chipwshisperer,
   Side-Channel, 3D printing, Soldering, EMFI, EM
 
-###  SUMMER CAMP COORDINATOR July 2024
+###  SUMMER CAMP COORDINATOR - Technofutur TIC - July 2024
 
 - Teaching at a summer camp an introduction of Android programming to
   teenager.
 
 - Skills: Teaching, MIT App Inventor, Android
 
-###  TUTOR September 2024 - June 2024
+###  TUTOR - UCLouvain - September 2024 - June 2024
 
 - Teaching Signals & Systems and Introduction to Computer Science.
 
@@ -50,7 +50,7 @@ $$F_{\rm {d}}\,=\,{\tfrac {1}{2}}\,\rho \,u^{2}\,c_{\rm {d}}\,A$$
 
 - Skills: Teaching, Python, Signal and Systems theory
 
-### MATHEMATICS TUTOR May 2023 - Now
+### MATHEMATICS TUTOR - Independent - May 2023 - Now
 
 - Tutoring for high school students
 
@@ -59,7 +59,7 @@ $$F_{\rm {d}}\,=\,{\tfrac {1}{2}}\,\rho \,u^{2}\,c_{\rm {d}}\,A$$
 
 - 100 % of my students passed their exam from their first try
 
-### SALES ASSOCIATE Aug 2022
+### SALES ASSOCIATE - HP - Aug 2022
 
 - Helped customers making the right choices.
 
