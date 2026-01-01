@@ -15,6 +15,9 @@ title: Thomas Debelle - 𝒟
 # Your name to show in the footer
 author: Thomas Debelle
 
+url: "https://thomas.debelle.be"  # Add this
+baseurl: ""                       # Add this
+
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
