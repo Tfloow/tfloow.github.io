@@ -9,7 +9,6 @@ mathjax: true
 author: Thomas Debelle
 ---
 
-## Abstract
 
 As I wrap up this academic cycle, I wanted to reflect on three distinct projects that I conducted at KU Leuven and how they managed to make me a better, smarter and more versatile future engineer.
 
