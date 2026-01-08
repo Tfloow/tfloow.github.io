@@ -14,7 +14,7 @@ As I wrap up this academic cycle, I wanted to reflect on three distinct projects
 **Table of content:**
 
 - [Fall 2025](#fall-2025)
-    - [AI Accelerator: Architecting a 4x4x4 GeMM Accelerator](#ai-accelerator-architecting-a-4x4x4-gemm-accelerator)
+    - [1. AI Accelerator: Architecting a 4x4x4 GeMM Accelerator](#1-ai-accelerator-architecting-a-4x4x4-gemm-accelerator)
     - [2. Sizing Op-Amps with Reinforcement Learning \& LLMs](#2-sizing-op-amps-with-reinforcement-learning--llms)
     - [3. High-Power RF Design: 24 GHz Power Amplifier](#3-high-power-rf-design-24-ghz-power-amplifier)
     - [Conclusion](#conclusion)
@@ -23,7 +23,7 @@ As I wrap up this academic cycle, I wanted to reflect on three distinct projects
 
 # Fall 2025
 
-### AI Accelerator: Architecting a 4x4x4 GeMM Accelerator
+### 1. AI Accelerator: Architecting a 4x4x4 GeMM Accelerator
 
 Modern AI workloads demand massive throughput for General Matrix Multiplication (GeMM). My team and I designed a **4x4x4 systolic array accelerator** specifically optimized for data locality and reuse.
 
