@@ -11,7 +11,6 @@ mathjax: true
 author: Thomas Debelle
 ---
 
-## Abstract
 
 In this blogpost, we explore the multiple design steps
 we went through to design a Co-Design implementation of the
