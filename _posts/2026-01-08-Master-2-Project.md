@@ -2,7 +2,6 @@
 layout: post
 title: Final year projects @ KU Leuven
 subtitle: From Systolic Arrays to mm-Wave PAs
-thumbnail-img: /assets/img/rsa_thumbnail.jpg
 tags: [academic projects,Analog,RF,EDA,CAD-IC,GPU,NPU,electronics,chips,Python,Tensorflow,GenAI]
 comments: true
 mathjax: true
