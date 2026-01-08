@@ -29,13 +29,13 @@ Enough rant about my love-hate relationship with a piece of code. The project wa
 
 We have multiple subcarrier that are designed in a way that the peak of one is located at the lobe of all of the others avoiding some interferences.
 
-The cherry on top is the use of QAM symbol which are complex value symbols and so previously, we had to rely on sending $cos$ and $sin$ wave to mimick the *quadrature* and *in phase* parts. Which is prone to error, to frequency shift, ... Modulating those QAM Symbols by using OFDM and some clever math makes each symbol a sort of raised cosine.
+The cherry on top is the use of QAM symbol which are complex value symbols and so previously, we had to rely on sending $$cos$$ and $$sin$$ wave to mimick the *quadrature* and *in phase* parts. Which is prone to error, to frequency shift, ... Modulating those QAM Symbols by using OFDM and some clever math makes each symbol a sort of raised cosine.
 
 ### From complex to sound
 
 As you all know, sending complexe value symbol is not really a thing so we can only rely on sending real valued data so the speaker can reproduce it and transmit the data. But how to come from a QAM to a real value symbol ? **DFT** and some symmetry !
 
-To run this we need to setup our dataframe in such ways that every symbols $S$ is set as :
+To run this we need to setup our dataframe in such ways that every symbols $$S$$ is set as :
 
 $$\begin{bmatrix}
     0\\

@@ -21,7 +21,7 @@ Yes, there exists around a quadrillion of those websites, but let's face it, the
 pandoc hello.docx -o hello.md
 ```
 
-Which is a wonderful way to get rid of Microsoft 365 ecosystems ([blog](https://www.antipope.org/charlie/blog-static/2013/10/why-microsoft-word-must-die.html)). Under the hood, pandoc is converting in $\LaTeX$ when you convert in pdf, another reason to love it. 
+Which is a wonderful way to get rid of Microsoft 365 ecosystems ([blog](https://www.antipope.org/charlie/blog-static/2013/10/why-microsoft-word-must-die.html)). Under the hood, pandoc is converting in $$\LaTeX$$ when you convert in pdf, another reason to love it. 
 
 The tool is already incredible like this, but it truly shines when you pair it with template and use variable which allows for clean and flexible documents that fits through various support (ideal for online publishing ;) ). And so one command can become more and more exotic as used and demonstrated in my recent [KULeuven's Summaries](https://github.com/Tfloow/Q8_KUL).
 
@@ -55,7 +55,7 @@ Basically, it can create clean invoice at [beconvert.onrender.com/invoice](https
 | :------ | :----------------------------------- | :------: | :-------------: | ----: |
 | XXXX    | Something really cool and overpriced |    2     |      1.000      | 2.000 |
 
-Then it will use a $21\%$ VAT (welcome to Belgium) and will sum up everything and add the VAT. It is still a work in progress so it may have more or less features (if I become greedy).
+Then it will use a $$21\%$$ VAT (welcome to Belgium) and will sum up everything and add the VAT. It is still a work in progress so it may have more or less features (if I become greedy).
 
 A tool to create shipping label and professional looking business card is in the work. Of course, to get more features one can purchase a premium key. It is not yet perfect as the template I use is in markdown/Latex and it struggles to be translated in word. And I am an *ethical* business man so I won't sell yet until I'm satisfied with my features.
 

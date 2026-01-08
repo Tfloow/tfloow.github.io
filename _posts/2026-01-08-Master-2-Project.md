@@ -11,6 +11,16 @@ author: Thomas Debelle
 
 As I wrap up this academic cycle, I wanted to reflect on three distinct projects that I conducted at KU Leuven and how they managed to make me a better, smarter and more versatile future engineer.
 
+**Table of content:**
+
+- [Fall 2025](#fall-2025)
+    - [AI Accelerator: Architecting a 4x4x4 GeMM Accelerator](#ai-accelerator-architecting-a-4x4x4-gemm-accelerator)
+    - [2. Sizing Op-Amps with Reinforcement Learning \& LLMs](#2-sizing-op-amps-with-reinforcement-learning--llms)
+    - [3. High-Power RF Design: 24 GHz Power Amplifier](#3-high-power-rf-design-24-ghz-power-amplifier)
+    - [Conclusion](#conclusion)
+- [Spring 2026](#spring-2026)
+
+
 # Fall 2025
 
 ### AI Accelerator: Architecting a 4x4x4 GeMM Accelerator
@@ -68,7 +78,7 @@ Designing at mm-wave frequencies requires a meticulous focus on matching network
 **The Design Process:**
 
 * **Bypass Technique:** We utilized sp simulations with idealized components to isolate the input and output matching networks before moving to high-accuracy inductor models.
-* **Inductor Optimization:** Using ADS, I designed custom square inductors with quality factors ($Q$) between 15 and 23, surpassing standard library components. 
+* **Inductor Optimization:** Using ADS, I designed custom square inductors with quality factors ($$Q$$) between 15 and 23, surpassing standard library components. 
   * > Fun fact: Q didn't initially stand for Quality factor but it was just the only letter not taken at that time. Later on, it was named quality factor as it showcased some sort of "quality" of a component or system.
 * **Linearity:** By slightly over-designing the PA, we achieved a gain variation of only **0.08 dB** in the operating region, ensuring stable performance at high input powers.
 
