@@ -11,9 +11,6 @@ mathjax: true
 author: Thomas Debelle
 ---
 
-{: .box-note}
-This is still a work in progress blog post. The deadline for this project is set to Monday 9th of December. Moreover, I may need some time to clean up the git repo and make it available at the time of this publication.
-
 ## Abstract
 
 In this blogpost, we explore the multiple design steps
