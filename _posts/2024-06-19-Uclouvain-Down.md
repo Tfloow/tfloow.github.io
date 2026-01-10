@@ -5,7 +5,7 @@ subtitle: Monitoring Service of UCLouvain's web tools
 gh-repo: Tfloow/UCLouvainDown
 thumbnail-img: /assets/img/uclouvain-down/icoDOWN.png
 gh-badge: [star, fork, follow]
-tags: [personal projects,IT,backend]
+tags: [projects, personal projects,IT,backend]
 comments: true
 mathjax: true
 author: Thomas Debelle

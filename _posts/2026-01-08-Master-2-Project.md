@@ -2,11 +2,14 @@
 layout: post
 title: Final year projects @ KU Leuven
 subtitle: From Systolic Arrays to mm-Wave PAs
-tags: [academic projects,Analog,RF,EDA,CAD-IC,GPU,NPU,electronics,chips,Python,Tensorflow,GenAI]
+tags: [projects, academic projects,Analog,RF,EDA,CAD-IC,GPU,NPU,electronics,chips,Python,Tensorflow,GenAI]
 comments: true
 mathjax: true
+thumbnail-img: /assets/img/M2/cover.png
 author: Thomas Debelle
 ---
+
+![alt text](image.png)
 
 
 As I wrap up this academic cycle, I wanted to reflect on three distinct projects that I conducted at KU Leuven and how they managed to make me a better, smarter and more versatile future engineer.
@@ -105,3 +108,7 @@ Not yet started, come back soon for more :p !
 ---
 
 If you liked this blogpost or would like to work with me, feel free to email me at [thomasdebelle [at] skynet.be](mailto:thomasdebelle@skynet.be) !
+
+---
+
+Cover of this blog: "Electrical Engineering students in the 1940s." from https://ee.calpoly.edu/about/ee-history

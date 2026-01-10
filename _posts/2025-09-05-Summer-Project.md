@@ -5,7 +5,7 @@ subtitle: Free conversion tool and revamped project
 gh-repo: Tfloow/Beconvert
 thumbnail-img: /assets/img/beconvert/cover.jpg
 gh-badge: [star, fork, follow]
-tags: [personal projects,IT,backend]
+tags: [projects, personal projects,IT,backend]
 comments: true
 mathjax: true
 author: Thomas Debelle

@@ -5,7 +5,7 @@ subtitle: Software or Hardware ? No need to choose !
 gh-repo: Tfloow/Montgomery
 thumbnail-img: /assets/img/rsa_thumbnail.jpg
 gh-badge: [star, fork, follow]
-tags: [academic projects,RSA,cryptography,electronics,FPGA,chips,C,ARM]
+tags: [projects, academic projects,RSA,cryptography,electronics,FPGA,chips,C,ARM]
 comments: true
 mathjax: true
 author: Thomas Debelle

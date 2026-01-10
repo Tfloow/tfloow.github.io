@@ -2,7 +2,7 @@
 layout: post
 title: Ecodesign report
 subtitle: The impact of ICT tools on our modern education system
-tags: [ecology,academic projects]
+tags: [projects, ecology,academic projects]
 comments: true
 author: Thomas Debelle, Bolin Li
 ---

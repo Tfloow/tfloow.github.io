@@ -2,7 +2,7 @@
 layout: page
 title: Consulting
 subtitle: Independent Consultant in IT
-tags: [personal projects]
+tags: [projects, personal projects]
 mathjax: true
 ---
 
