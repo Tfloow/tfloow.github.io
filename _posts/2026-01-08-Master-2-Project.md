@@ -9,10 +9,7 @@ thumbnail-img: /assets/img/M2/cover.png
 author: Thomas Debelle
 ---
 
-![alt text](image.png)
-
-
-As I wrap up this academic cycle, I wanted to reflect on three distinct projects that I conducted at KU Leuven and how they managed to make me a better, smarter and more versatile future engineer.
+As I wrap up this academic cycle, I wanted to reflect on three distinct projects that I conducted at KU Leuven and how they managed to make me a better, smarter and more versatile future engineer. I conducted many projects this last year, Let's dive in!
 
 **Table of content:**
 
