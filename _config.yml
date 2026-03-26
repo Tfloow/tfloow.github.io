@@ -25,12 +25,12 @@ baseurl: ""                       # Add this
 navbar-links:
   About Me: "https://thomas.debelle.be/aboutme/"
   Projects: 
-    - Academic: "tags/#academic projects"
-    - Industry: "tags/#industry projects"
-    - Personal: "tags/#personal projects"
-  Consulting: "consulting/"
-  CTF: "tags/#CTF"
-  Resume: "assets/docs/thomas_debelle_CV.pdf"
+    - Academic: "https://thomas.debelle.be/tags/#academic projects"
+    - Industry: "https://thomas.debelle.be/tags/#industry projects"
+    - Personal: "https://thomas.debelle.be/tags/#personal projects"
+  Consulting: "https://thomas.debelle.be/consulting/"
+  CTF: "https://thomas.debelle.be/tags/#CTF"
+  Resume: "https://thomas.debelle.be/assets/docs/thomas_debelle_CV.pdf"
   Contact:
     - Linkedin: "https://www.linkedin.com/in/thomas-debelle/"
     - Mail: "mailto:thomas.debelle@student.kuleuven.be"
