@@ -13,6 +13,20 @@ I am also a passionate cyclist. Cyclism provides me the freedom I yearn when I a
 
 $$F_{\rm {d}}\,=\,{\tfrac {1}{2}}\,\rho \,u^{2}\,c_{\rm {d}}\,A$$
 
+Navigation:
+
+- [Experience](#experience)
+  - [INDEPENDENT IT CONSULTANT (Junior Entreprise) - JCL - April 2024 - Now](#independent-it-consultant-junior-entreprise---jcl---april-2024---now)
+  - [VULNERABILITY ANALYST INTERN - NXP Semiconductors - June 2025 - August 2025](#vulnerability-analyst-intern---nxp-semiconductors---june-2025---august-2025)
+  - [SUMMER CAMP COORDINATOR - Technofutur TIC - July 2024](#summer-camp-coordinator---technofutur-tic---july-2024)
+  - [TUTOR - UCLouvain - September 2024 - June 2024](#tutor---uclouvain---september-2024---june-2024)
+  - [MATHEMATICS TUTOR - Independent - May 2023 - Now](#mathematics-tutor---independent---may-2023---now)
+  - [SALES ASSOCIATE - HP - Aug 2022](#sales-associate---hp---aug-2022)
+- [Research](#research)
+  - [Master Thesis](#master-thesis)
+- [Why this website](#why-this-website)
+
+
 ## Experience
 
 ###  INDEPENDENT IT CONSULTANT (Junior Entreprise) - JCL - April 2024 - Now
@@ -74,6 +88,19 @@ $$F_{\rm {d}}\,=\,{\tfrac {1}{2}}\,\rho \,u^{2}\,c_{\rm {d}}\,A$$
 - Diagnosed and fixed faulty machines to enhance customer's experience.
 
 - Managed the front-store and strategically placed flagships.
+
+## Research
+
+### Master Thesis
+
+The Thesis is based on the [ANDA](https://arxiv.org/abs/2411.15982) accelerator. This is an efficient bit-serial Matrix Multiplication Unit (MXU) that proposes a Software and Hardware design for efficient and faster inference.
+
+#### Abstract
+
+The main goal of this work is to enhance the existing ANDA’s framework. ANDA is a powerful software-hardware co-design of an AI-accelerator which yield promising gains for next generation hardware. This work contributes to ANDA and the broader goals by providing various optimization mechanism which are:
+
+1. The student develops a self-adaptive algorithm that eliminates calibration [for activation and weight quantization] requirements by dynamically adjusting precision based on runtime information.
+2. The student designs an end-to-end hardware acceleration solution that extends Anda’s capabilities to efficiently handle KV Cache operations.
 
 ## Why this website
 
