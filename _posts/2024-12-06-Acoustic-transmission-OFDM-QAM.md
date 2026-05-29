@@ -2,7 +2,7 @@
 layout: post
 title: Sending data Through an Acoustic Channel
 subtitle: Sounds like noise, Looks (sometimes) like noise
-tags: [projects, academic projects,telecommunication]
+tags: [projects, academic,telecommunication]
 comments: true
 mathjax: true
 author: Thomas Debelle

@@ -15,8 +15,8 @@ title: Thomas Debelle - 𝒟
 # Your name to show in the footer
 author: Thomas Debelle
 
-url: "https://thomas.debelle.be"  # Add this
-baseurl: ""                       # Add this
+url: "https://thomas.debelle.be"
+baseurl: ""
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -25,9 +25,9 @@ baseurl: ""                       # Add this
 navbar-links:
   About Me: "https://thomas.debelle.be/aboutme/"
   Projects: 
-    - Academic: "https://thomas.debelle.be/tags/#academic projects"
-    - Industry: "https://thomas.debelle.be/tags/#industry projects"
-    - Personal: "https://thomas.debelle.be/tags/#personal projects"
+    - Academic: "https://thomas.debelle.be/tags/#academic"
+    - Industry: "https://thomas.debelle.be/tags/#industry"
+    - Personal: "https://thomas.debelle.be/tags/#personal"
   Consulting: "https://thomas.debelle.be/consulting/"
   CTF: "https://thomas.debelle.be/tags/#CTF"
   Resume: "https://thomas.debelle.be/assets/docs/thomas_debelle_CV.pdf"
@@ -263,7 +263,7 @@ date_format: "%B %-d, %Y"
 #################################################################################
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
+timezone: "Europe/Brussels"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
