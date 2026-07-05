@@ -2,10 +2,10 @@
 layout: page
 title: About me
 subtitle: More about me and who I am
-mathjax: tru
+mathjax: true
 ---
 
-My name is Thomas Debelle and I am M.Sc. student at ESAT (KU Leuven Electrical Engineering Department). I am currently pursuing a master in Electronics & Chip Design with a touch of cybersecurity (*cause I love it*).
+My name is Thomas Debelle and I am M.Sc. Electrical Engineer. I graduated in June 2026 from ESAT (KU Leuven Electrical Engineering Department) in Electronics & Chip Design with Magna cum Laude (16/20).
 
 $$i\hbar \frac{d}{dt}|\Psi (t)\rangle =\hat {H}|\Psi (t)\rangle$$
 
