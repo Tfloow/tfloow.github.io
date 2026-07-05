@@ -14,29 +14,29 @@ As I wrap up this academic cycle, I wanted to reflect on three distinct projects
 **Table of content:**
 
 - [Fall 2025](#fall-2025)
-    - [1. AI Accelerator: Architecting a 4x4x4 GeMM Accelerator](#1-ai-accelerator-architecting-a-4x4x4-gemm-accelerator)
+    - [1. AI Accelerator: a 4x4x4 GeMM Accelerator](#1-ai-accelerator-a-4x4x4-gemm-accelerator)
     - [2. Sizing Op-Amps with Reinforcement Learning \& LLMs](#2-sizing-op-amps-with-reinforcement-learning--llms)
-    - [3. High-Power RF Design: 24 GHz Power Amplifier](#3-high-power-rf-design-24-ghz-power-amplifier)
+    - [3. High-Power RF Design @ 24 GHz](#3-high-power-rf-design--24-ghz)
     - [Conclusion](#conclusion)
 - [Spring 2026](#spring-2026)
 
 
 # Fall 2025
 
-### 1. AI Accelerator: Architecting a 4x4x4 GeMM Accelerator
+### 1. AI Accelerator: a 4x4x4 GeMM Accelerator
 
-Modern AI workloads demand massive throughput for General Matrix Multiplication (GeMM). My team and I designed a **4x4x4 systolic array accelerator** specifically optimized for data locality and reuse.
+Modern AI workflow relies on General Matrix Multiplication (GeMM). For this reason, we have seen a rapid uptake of AI accelerators, which are just a fancy name for GeMM accelerators. Sahil Nain, my teammate, and I designed a **4x4x4 systolic array accelerator** specifically optimized for data locality and reuse.
 
-**The Architecture:**
+**Architecture:**
 
-* **Systolic Processing:** We chose this to minimize memory bandwidth bottlenecks. By passing inputs (A and B) through the array, each byte is reused multiple times, significantly increasing arithmetic intensity.
+* **Systolic array:** We chose this to minimize memory bandwidth bottlenecks. By passing inputs (A and B) through the array, each byte is reused multiple times, significantly increasing arithmetic intensity.
 
-* **Output Stationarity:** This choice prevents the inefficient repeated flushing and reloading of partial sums.
+* **Output Stationarity:** We keep the result local and sationary as they represent a significant amount of data compared to the inputs (often a factor 4 or more). Hence, keeping the output stationary reduces memory traffic.
 
-* **Precision:** The design uses 8-bit inputs and 32-bit accumulators, balancing precision with hardware area.
+* **Precision:** We use an 8-bit inputs and 32-bit accumulators, for outputs, balancing precision with hardware area.
 
 
-**Key Metric:** We achieved a MAC utilization of **83.12%** for  workloads, proving that structured Manhattan connections and deterministic scheduling can drastically reduce interconnect complexity.
+**Key Metric:** We achieved a MAC utilization of **83.12%** for workloads, proving that structured Manhattan connections, systolic approach, and deterministic scheduling can drastically reduce interconnect complexity.
 
 ![Architecture](/assets/img/M2/architecture-AI-1.png)
 
@@ -55,30 +55,31 @@ Analog IC design is traditionally a manual, iterative process. In this project, 
 
 The agent was really impressive and our simulated annealing & short roll outs improved the performances without getting lost in suboptimal designs. Seeing the pareto plots, we can see how we explored a vast area of feasible and optimal designs.
 
-![Pareto Plots](/assets/img/M2/pareto.png)
+![Pareto Plots of our agents](/assets/img/M2/pareto.png)
 
-**The Workflow:**
-We implemented a multi-agent LLM structure to act as a "Senior Engineer" reviewer:
+We implemented a multi-agent LLM with one "orchestrator", btw we did that before the rapid uptake of [clawcode](https://github.com/ultraworkers/claw-code) which released in April 2026.
 
-1. **Descriptive Agent:** Interpreted simulation results and explained design trade-offs.
-2. **Expert Sizer Agents:** Proposed parameter updates (W/L ratios, bias currents) targeting specific goals like noise reduction or area optimization.
-3. **Aggregation Agent:** Selected the best proposed parameters to maximize the Figure of Merit (FoM).
+1. **Descriptive** Use simulation results and explained design trade-offs.
+2. **Expert** Tweaks the W/L ratios, bias currents, ... targeting specific goals like noise reduction, area optimization, ...
+3. **Aggregation** Its role is to summarize the best proposition from each of the expert agents.
 
 ![Agent structure](/assets/img/M2/agent.png)
 
 
-**The Verdict:** While the RL agent excelled at exploring the environment, the LLM-based workflow proved vital for **explaining design choices** to human engineers, bridging the gap between "black-box" optimization and actionable insights.
+**Result:** While the RL agent was fast and excellent for finding the correct sizing, the LLM approach was extremely good at explaining the design trade-offs and potential problems to an human designer.
+
+However, the Expert agents were not the best and would take a long time to execute compared to the TD3 workflow. Moreover, their result would be quite variable and never truly consistant. In this current state, it was not really viable which highlight the lack of analog training data for LLMs.
 
 ---
 
-### 3. High-Power RF Design: 24 GHz Power Amplifier
+### 3. High-Power RF Design @ 24 GHz
 
 Designing at mm-wave frequencies requires a meticulous focus on matching networks and parasitic management. I designed a **Class-A Power Amplifier** targeting a 24 GHz operating frequency.
 
 **The Design Process:**
 
-* **Bypass Technique:** We utilized sp simulations with idealized components to isolate the input and output matching networks before moving to high-accuracy inductor models.
-* **Inductor Optimization:** Using ADS, I designed custom square inductors with quality factors ($$Q$$) between 15 and 23, surpassing standard library components. 
+* **Bypass Technique:** We utilized SP simulations with idealized components to isolate the input and output matching networks.
+* **Inductor Optimization:** Using ADS, a fem program for electromagnetic simulation, I designed custom square inductors with quality factors ($$Q$$) between 15 and 23. 
   * > Fun fact: Q didn't initially stand for Quality factor but it was just the only letter not taken at that time. Later on, it was named quality factor as it showcased some sort of "quality" of a component or system.
 * **Linearity:** By slightly over-designing the PA, we achieved a gain variation of only **0.08 dB** in the operating region, ensuring stable performance at high input powers.
 
