@@ -1,18 +1,19 @@
 ---
 layout: post
-title: Block-Floating Point and Bit-Serial Architectures
+title: Block-Floating Point and Bit-Serial
 subtitle: Flipping the problem by 90 degrees
-tags: [projects, academic,GPU,NPU,chips,Python,Tensorflow,GenAI,AI]
+tags: [projects, academic,GPU,NPU,chips,Python,Tensorflow,GenAI,AI, technical]
 comments: true
 mathjax: true
-thumbnail-img: /assets/img/M2/cover.png
+thumbnail-img: /assets/img/BFP-Bit/FP_to_BFP.png
 author: Thomas Debelle
 ---
 
-Through my Master Thesis, SANDA, I explored two interesting topics in the field of Chip Design and AI accelerators: **Block-Floating Point (BFP)** and **Bit-Serial Architectures**. These two concepts, while seemingly distinct, share a common goal of optimizing computational efficiency and resource utilization in hardware design.
+Through my Master Thesis, [SANDA](https://thomas.debelle.be/2026-07-15-SANDA/), I explored two interesting topics in the field of Chip Design and AI accelerators: **Block-Floating Point (BFP)** and **Bit-Serial Architectures**. These two concepts, while seemingly distinct, share a common goal of optimizing computational efficiency and resource utilization in hardware design.
 
 - [Block-Floating Point (BFP)](#block-floating-point-bfp)
   - [Example](#example)
+  - [Summary](#summary)
 - [Bit-serial Processing](#bit-serial-processing)
 
 
@@ -44,6 +45,14 @@ $$
 2^3 \cdot 1.100_2 \rightarrow 2^4 \cdot 0.110_2 \qquad 2^4 \cdot 1.011_2 \rightarrow 2^4 \cdot 1.011_2
 $$
 
+### Summary
 
+1. Group FP values together (often in power of 2)
+2. Find the maximum exponent in the group
+3. Align the mantissa for each value
+   1. Compute the delta between the current value and the maximum exponent
+   2. Right shift the mantissa by the delta. **Don't forget** the hidden bit!
+4. Truncate the mantissa to keep the same bit-width throughout the group
+5. You now have a BFP representation of your FP values group, gaining in efficiency and memory savings. 
 
 ## Bit-serial Processing
